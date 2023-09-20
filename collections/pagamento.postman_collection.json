@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "b7bd3e53-348a-42fe-9ea0-b11fcf9ad207",
+		"name": "pagamento",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Pagar emprestimo por id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{pagamentos_base_url}}/pagamentos/3",
+					"host": [
+						"{{pagamentos_base_url}}"
+					],
+					"path": [
+						"pagamentos",
+						"3"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
